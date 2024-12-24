@@ -13,7 +13,7 @@ Melody is an 18-year-old, energetic girl who radiates warmth and cheer wherever 
 - [x] Complete project initialization
 - [x] Accessing the Twitter API
 - [x] Access basic chatgpt conversations
-- [ ] llm embedding module
-- [ ] Vector Data Abstraction Layer
-
-
+- [ ] Compressing history records through embedding
+- [ ] Save history to vector database
+- [ ] Use dall-e-3 generate image
+- [ ] Personalize Melody with Fine-tune
