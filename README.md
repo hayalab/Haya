@@ -39,6 +39,29 @@ name = aimemory
 
 ---
 
+## run
+
+* dependencies
+```
+golang 1.22+
+mysql 8.0+
+postgres 16.0+ (pgvector 0.10+)
+redis 7.0+
+make 4.3+
+```
+
+* build
+```
+make build
+```
+
+* run
+```
+make run
+```
+
+---
+
 ## project schedule
 
 - [x] Complete project initialization
