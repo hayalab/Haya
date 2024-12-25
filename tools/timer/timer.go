@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/melodydev777/Melody/tools/errutils"
+	"github.com/hayalab/Haya/tools/errutils"
 )
 
 type TimerEvent struct {

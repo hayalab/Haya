@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/melodydev777/Melody/tools"
+	"github.com/hayalab/Haya/tools"
 )
 
 const (

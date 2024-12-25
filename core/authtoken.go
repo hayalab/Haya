@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/crypt"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/crypt"
 )
 
 const (

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/core"
-	"github.com/melodydev777/Melody/models"
-	"github.com/melodydev777/Melody/sdk/twitterapi"
-	"github.com/melodydev777/Melody/tools/log"
-	"github.com/melodydev777/Melody/tools/logger"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/core"
+	"github.com/hayalab/Haya/models"
+	"github.com/hayalab/Haya/sdk/twitterapi"
+	"github.com/hayalab/Haya/tools/log"
+	"github.com/hayalab/Haya/tools/logger"
 )
 
 // used to init configs

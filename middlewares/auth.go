@@ -4,10 +4,10 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin/binding"
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/core"
-	"github.com/melodydev777/Melody/tools/log"
-	"github.com/melodydev777/Melody/tools/rpchelper"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/core"
+	"github.com/hayalab/Haya/tools/log"
+	"github.com/hayalab/Haya/tools/rpchelper"
 
 	"github.com/gin-gonic/gin"
 )

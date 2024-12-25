@@ -52,29 +52,29 @@ func ParseConfigINI(cpath string) (err error) {
 		Env = appEnv
 	}
 
-	TwitterAPIToken = GetConfigString("twitter", "api_token")
-	if TwitterAPIToken == "" {
-		return fmt.Errorf("twitter api_token is not config")
-	}
-	BaseScope = GetConfigString("twitter", "base_scope")
-	if BaseScope == "" {
-		return fmt.Errorf("twitter base_scope is not config")
-	}
+	// TwitterAPIToken = GetConfigString("twitter", "api_token")
+	// if TwitterAPIToken == "" {
+	// 	return fmt.Errorf("twitter api_token is not config")
+	// }
+	// BaseScope = GetConfigString("twitter", "base_scope")
+	// if BaseScope == "" {
+	// 	return fmt.Errorf("twitter base_scope is not config")
+	// }
 
-	LLMSavePath = GetConfigString("llm", "save_path")
-	if len(LLMSavePath) == 0 {
-		panic("config error")
-	}
+	// LLMSavePath = GetConfigString("llm", "save_path")
+	// if len(LLMSavePath) == 0 {
+	// 	panic("config error")
+	// }
 
-	TwMetricRefreshInterval, err = GetConfigInt("twitter", "tw_metric_refresh_interval")
-	if err != nil {
-		panic("config error")
-	}
+	// TwMetricRefreshInterval, err = GetConfigInt("twitter", "tw_metric_refresh_interval")
+	// if err != nil {
+	// 	panic("config error")
+	// }
 
-	TwitterOAuth2JumpFrontUrl = GetConfigString("twitter", "jump_front_url")
-	if len(TwitterOAuth2JumpFrontUrl) == 0 {
-		panic("config error")
-	}
+	// TwitterOAuth2JumpFrontUrl = GetConfigString("twitter", "jump_front_url")
+	// if len(TwitterOAuth2JumpFrontUrl) == 0 {
+	// 	panic("config error")
+	// }
 
 	return nil
 }

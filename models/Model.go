@@ -1,10 +1,12 @@
 package models
 
 import (
+	"context"
 	"fmt"
 	"time"
 
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
+	"github.com/jackc/pgx/v5/pgxpool"
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/jinzhu/gorm"
@@ -21,6 +23,7 @@ var (
 	dbs = make(map[string]*gorm.DB)
 	// global redis instances
 	redises = make(map[string]*RedisClient)
+	pgs     = make(map[string]*pgxpool.Pool)
 )
 
 func InitModel() {
@@ -36,6 +39,12 @@ func InitModel() {
 	if err != nil {
 		panic(err)
 	}
+
+	// pg_main
+	err = registerPG("pg_main")
+	if err != nil {
+		panic(err)
+	}
 }
 
 // get main db instance
@@ -46,6 +55,30 @@ func GetDbInst() *gorm.DB {
 // get main redis instance
 func GetRdbInst() *RedisClient {
 	return redises["rdb_main"]
+}
+
+// get main pg instance
+func GetPGInst(sectionName string) *pgxpool.Pool {
+	return pgs[sectionName]
+}
+
+func registerPG(sectionName string) error {
+
+	// "postgres://user:password@host:port/dbname"
+	connStr := fmt.Sprintf("postgres://%s:%s@%s:%s/%s", conf.GetConfigString(sectionName, "user"),
+		conf.GetConfigString(sectionName, "password"),
+		conf.GetConfigString(sectionName, "host"),
+		conf.GetConfigString(sectionName, "port"),
+		conf.GetConfigString(sectionName, "name"))
+
+	var err error
+	pg, err := pgxpool.New(context.Background(), connStr)
+	if err != nil {
+		return err
+	}
+	pgs[sectionName] = pg
+
+	return nil
 }
 
 // register db instance

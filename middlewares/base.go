@@ -3,7 +3,7 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
 
 	"github.com/gin-gonic/gin"
 )

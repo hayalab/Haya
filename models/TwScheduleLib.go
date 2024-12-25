@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/strutils"
 	"github.com/jinzhu/gorm"
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/strutils"
 )
 
 type TwScheduleLib struct {

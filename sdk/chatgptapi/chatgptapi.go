@@ -7,7 +7,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
 	"github.com/sashabaranov/go-openai"
 )
 

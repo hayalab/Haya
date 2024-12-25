@@ -3,10 +3,10 @@ package controllers
 import (
 	"time"
 
-	"github.com/melodydev777/Melody/tools"
+	"github.com/hayalab/Haya/tools"
 
 	"github.com/gin-gonic/gin"
-	"github.com/melodydev777/Melody/core"
+	"github.com/hayalab/Haya/core"
 )
 
 type IndexController struct {

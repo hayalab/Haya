@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
+	"github.com/hayalab/Haya/tools"
 	"github.com/jinzhu/gorm"
-	"github.com/melodydev777/Melody/tools"
 )
 
 type TwOAuth1 struct {

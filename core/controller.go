@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
 )
 
 type ApiRet struct {

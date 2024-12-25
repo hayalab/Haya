@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/controllers"
-	"github.com/melodydev777/Melody/core"
-	"github.com/melodydev777/Melody/middlewares"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/controllers"
+	"github.com/hayalab/Haya/core"
+	"github.com/hayalab/Haya/middlewares"
 )
 
 func Router() {

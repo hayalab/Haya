@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/logger"
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/logger"
 )
 
 const (

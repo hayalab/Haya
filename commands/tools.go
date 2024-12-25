@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/melodydev777/Melody/core"
-	"github.com/melodydev777/Melody/tools/log"
+	"github.com/hayalab/Haya/core"
+	"github.com/hayalab/Haya/tools/log"
 
 	"github.com/urfave/cli"
 )

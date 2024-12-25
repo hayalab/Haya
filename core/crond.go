@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/melodydev777/Melody/tools/timer"
+	"github.com/hayalab/Haya/tools/timer"
 )
 
 type Crond interface {

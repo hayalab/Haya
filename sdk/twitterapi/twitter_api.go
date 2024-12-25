@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/g8rswimmer/go-twitter/v2"
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/log"
-	"github.com/melodydev777/Melody/tools/netutils"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/log"
+	"github.com/hayalab/Haya/tools/netutils"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/go-co-op/gocron"
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
 )
 
 var scheduler *Scheduler

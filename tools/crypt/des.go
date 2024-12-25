@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/melodydev777/Melody/conf"
+	"github.com/hayalab/Haya/conf"
 )
 
 // symmetric encryption

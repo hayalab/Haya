@@ -16,9 +16,9 @@ import (
 
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/garyburd/go-oauth/oauth"
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/tools/log"
-	"github.com/melodydev777/Melody/tools/mediautils"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/tools/log"
+	"github.com/hayalab/Haya/tools/mediautils"
 )
 
 const (

@@ -3,10 +3,10 @@ package commands
 import (
 	"time"
 
-	"github.com/melodydev777/Melody/core"
-	"github.com/melodydev777/Melody/models"
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/log"
+	"github.com/hayalab/Haya/core"
+	"github.com/hayalab/Haya/models"
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/log"
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
 	"github.com/urfave/cli"

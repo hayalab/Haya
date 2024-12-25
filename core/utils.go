@@ -10,9 +10,9 @@ import (
 
 	"github.com/g8rswimmer/go-twitter/v2"
 	"github.com/gomodule/redigo/redis"
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/models"
-	"github.com/melodydev777/Melody/tools/log"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/models"
+	"github.com/hayalab/Haya/tools/log"
 	"github.com/shopspring/decimal"
 )
 

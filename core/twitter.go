@@ -11,12 +11,12 @@ import (
 
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/g8rswimmer/go-twitter/v2"
-	"github.com/melodydev777/Melody/conf"
-	"github.com/melodydev777/Melody/models"
-	"github.com/melodydev777/Melody/models/data"
-	"github.com/melodydev777/Melody/sdk/twitterapi"
-	"github.com/melodydev777/Melody/tools"
-	"github.com/melodydev777/Melody/tools/log"
+	"github.com/hayalab/Haya/conf"
+	"github.com/hayalab/Haya/models"
+	"github.com/hayalab/Haya/models/data"
+	"github.com/hayalab/Haya/sdk/twitterapi"
+	"github.com/hayalab/Haya/tools"
+	"github.com/hayalab/Haya/tools/log"
 	"github.com/shopspring/decimal"
 )
 

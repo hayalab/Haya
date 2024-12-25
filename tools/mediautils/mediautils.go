@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/melodydev777/Melody/tools/byteutils"
+	"github.com/hayalab/Haya/tools/byteutils"
 )
 
 const (
